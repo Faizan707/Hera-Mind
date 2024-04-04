@@ -1,0 +1,489 @@
+body{
+    font-family: "Poppins";
+}
+
+
+.background{
+    background-color: #1F266D;
+}
+.button-background{
+    background-color: #79C76E;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+}
+.background-2{
+    background: linear-gradient(to bottom right, #a9d6fc,  #fcdbcb,#ff96d6);
+
+}
+.background-mission{
+    background-color: #1F266D;
+}
+
+.background-3{
+    background-color: #1F266D;
+}
+.background-4{
+    background: linear-gradient(to bottom right, #a9d6fc,  #fcdbcb,#ff96d6);
+}
+.vision-background{
+    background-color: #F4E9DA;
+}
+
+.background-5{
+    position: relative;
+}
+.background-5::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 154, 55,0.7); 
+    z-index: 1;
+}
+.background-6{
+    background-color: #1F266D;
+
+}
+.navbar-toggler {
+    background-color: white;
+}
+.first-column {
+    padding-right: 15px; /* Adjust as needed */
+}
+
+.last-column {
+    padding-left: 80px; 
+}
+.second-column{
+    padding-left: 100px;
+}
+.third-column{
+    padding-left: 105px;
+}
+.name-input:focus{
+    background-color: #FFFFFF !important;
+}
+@media (max-width: 740px) {
+
+    .image-1{
+        width: 106%;
+        margin-left: -12px !important;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top:0px !important;
+    }
+    
+    .background-mission{
+        margin-left: 0px !important;
+        margin-bottom: -147px;
+        margin-top: 0 !important;
+        
+    }
+    .vision-paragraph p{
+        font-size: large !important;
+    }
+    .vision-background{
+        margin-top: -122px !important;
+        height: auto;
+    }
+    .background-4{
+        height: auto;
+
+    }
+    .background-2{
+        height: auto;
+    }
+    .background-3{
+        height: auto;
+    }
+    .image-2{
+        left: 0 !important; 
+        top: 717px !important; 
+        width: 100% !important; 
+    }
+    .address-container{
+        padding-left: 0 !important;
+    }
+    .email-container{
+        padding-left: 0 !important;
+    }
+    .first-column{
+        padding-left: 10px !important;
+    }
+    .second-column{
+        padding-left: 10px !important;
+        margin-top: 0 !important;
+    }
+    .third-column{
+        padding-left: 10px !important;
+        margin-top: -34px !important;
+    }
+    .last-column{
+        padding-left: 10px !important;
+        margin-top: -28px !important;
+    }
+   
+    .email-paragraph{
+        padding-left: 0 !important;
+    }
+    .email{
+        margin-left: -128px !important;
+    }
+    .phone{
+        margin-left: -252px !important;
+    }
+    .phone-text{
+        margin-left: -244px !important;
+    }
+    .product-plan-container{
+        padding-left: 0 !important;
+    }
+    .site-map-container{
+        padding-left: 0 !important;
+    }
+    .signup-letter{
+        padding-left: 0 !important;
+    }
+    .contact-us{
+        margin-left: 0 !important;
+    }
+    .touch-us{
+        margin-left: 0 !important;
+
+    }
+    .image-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .text-container {
+        padding-bottom: 0 !important;
+    }
+
+    .Vision {
+        font-size: 30px;
+        padding-left: 0 !important;
+    }
+
+    .text-container p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: justify !important;
+    }
+
+    .image-container img {
+        width: 100%;        
+        margin-top: 555px;
+        margin-left: 89px;   
+    }
+    .custom-container p{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-top: 0 !important;
+    }
+    .custom-row{
+        padding-top: 0 !important;
+    }
+    .ai-image{
+        width: 106%;
+        margin-left: -8px !important;
+        margin-top: 0 !important;
+    }
+    .custom-div{
+        padding-bottom: 0 !important;
+    }
+    .map-image{
+        height: auto !important;
+    }
+     .phone-no{
+        padding-left: 0 !important;
+     }
+     .contact-us-container{
+        margin-top: 190px !important;
+     }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .image-1{
+        width: 106%;
+        margin-left: -12px !important;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top:0px !important;
+    }
+    
+    .background-mission{
+        margin-left: 0px !important;
+        margin-bottom: -147px;
+        margin-top: 0 !important;
+        
+    }
+    .vision-paragraph p{
+        font-size: large !important;
+    }
+    .vision-background{
+        margin-top: -64px !important;
+        height: auto;
+    }
+    .background-4{
+        height: auto;
+
+    }
+    .background-2{
+        height: auto;
+    }
+    .background-3{
+        height: auto;
+    }
+    .image-2{
+        left: 0 !important; 
+        top: 717px !important; 
+        width: 100% !important; 
+    }
+    .address-container{
+        padding-left: 0 !important;
+    }
+    .email-container{
+        padding-left: 0 !important;
+    }
+    .first-column{
+        padding-left: 10px !important;
+    }
+    .second-column{
+        padding-left: 10px !important;
+        margin-top: 0 !important;
+    }
+    .third-column{
+        padding-left: 10px !important;
+        margin-top: -34px !important;
+    }
+    .last-column{
+        padding-left: 10px !important;
+        margin-top: -28px !important;
+    }
+   
+    .email-paragraph{
+        padding-left: 0 !important;
+    }
+    .email{
+        margin-left: -128px !important;
+    }
+    .phone{
+        margin-left: -252px !important;
+    }
+    .phone-text{
+        margin-left: -244px !important;
+    }
+    .product-plan-container{
+        padding-left: 0 !important;
+    }
+    .site-map-container{
+        padding-left: 0 !important;
+    }
+    .signup-letter{
+        padding-left: 0 !important;
+    }
+    .contact-us{
+        margin-left: 0 !important;
+    }
+    .touch-us{
+        margin-left: 0 !important;
+
+    }
+    .image-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .text-container {
+        padding-bottom: 0 !important;
+    }
+
+    .Vision {
+        font-size: 30px;
+        padding-left: 133px !important;
+    }
+
+    .text-container p {
+        padding-left: 145px !important;
+        padding-right: 100px !important;
+        text-align: justify !important;
+    }
+
+    .image-container img {
+        width: 45%;        
+        margin-top: 77px;
+        margin-left: 21px;   
+    }
+    .custom-container p{
+        padding-left: 0 !important;
+        padding-right: 230px !important;
+        margin-top: 0 !important;
+    }
+    .custom-row{
+        padding-top: 0 !important;
+    }
+    .ai-image{
+        width: 164%;
+        margin-left: -183px !important;
+        margin-top: 189px !important;
+    }
+    .custom-div{
+        padding-bottom: 0 !important;
+    }
+    .map-image{
+        height: auto !important;
+    }
+     .phone-no{
+        padding-left: 37px !important;
+     }
+     .contact-us-container{
+        margin-top: 49px !important;
+     }
+    }
+
+    @media (min-width: 768px){
+        .image-1{
+            width: 106%;
+            margin-left: -12px !important;
+            padding: 0 !important;
+            margin-bottom: 0 !important;
+            margin-top:0px !important;
+        }
+        
+        .background-mission{
+            margin-left: 0px !important;
+            margin-bottom: -147px;
+            margin-top: 0 !important;
+            
+        }
+        .vision-paragraph p{
+            font-size: large !important;
+        }
+        .vision-background{
+            margin-top: -64px !important;
+            height: auto;
+        }
+        .background-4{
+            height: auto;
+    
+        }
+        .background-2{
+            height: auto;
+        }
+        .background-3{
+            height: auto;
+        }
+        .image-2{
+            left: 0 !important; 
+            top: 717px !important; 
+            width: 100% !important; 
+        }
+        .address-container{
+            padding-left: 0 !important;
+        }
+        .email-container{
+            padding-left: 0 !important;
+        }
+        .first-column{
+            padding-left: 10px !important;
+        }
+        .second-column{
+            padding-left: 10px !important;
+            margin-top: 0 !important;
+        }
+        .third-column{
+            padding-left: 10px !important;
+            margin-top: -34px !important;
+        }
+        .last-column{
+            padding-left: 10px !important;
+            margin-top: -28px !important;
+        }
+       
+        .email-paragraph{
+            padding-left: 0 !important;
+        }
+        .email{
+            margin-left: -128px !important;
+        }
+        .phone{
+            margin-left: -252px !important;
+        }
+        .phone-text{
+            margin-left: -244px !important;
+        }
+        .product-plan-container{
+            padding-left: 0 !important;
+        }
+        .site-map-container{
+            padding-left: 0 !important;
+        }
+        .signup-letter{
+            padding-left: 0 !important;
+        }
+        .contact-us{
+            margin-left: 0 !important;
+        }
+        .touch-us{
+            margin-left: 0 !important;
+    
+        }
+        .image-container {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    
+        .text-container {
+            padding-bottom: 0 !important;
+        }
+    
+        .Vision {
+            font-size: 30px;
+            padding-left: 133px !important;
+        }
+    
+        .text-container p {
+            padding-left: 145px !important;
+            padding-right: 100px !important;
+            text-align: justify !important;
+        }
+    
+        .image-container img {
+            width: 45%;        
+            margin-top: 77px;
+            margin-left: 21px;   
+        }
+        .custom-container p{
+            padding-left: 0 !important;
+            padding-right: 230px !important;
+            margin-top: 0 !important;
+        }
+        .custom-row{
+            padding-top: 0 !important;
+        }
+        .ai-image{
+            width: 164%;
+            margin-left: -183px !important;
+            margin-top: 189px !important;
+        }
+        .custom-div{
+            padding-bottom: 0 !important;
+        }
+        .map-image{
+            height: auto !important;
+        }
+         .phone-no{
+            padding-left: 37px !important;
+         }
+         .contact-us-container{
+            margin-top: 49px !important;
+         }
+    }

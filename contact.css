@@ -1,0 +1,64 @@
+body{
+    font-family: "Poppins";
+}
+
+.background{
+    background-color: #1F266D;
+}
+.button-background{
+    background-color: #79C76E;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 116px;
+    height: 40px;
+    border: none;
+}
+.input-container-background{
+    background-color:#FFFFFF ;
+    padding-top: 50px;
+}
+.background-3{
+    background-color: #1F266D;
+
+}
+.navbar-toggler {
+    background-color: white;
+}.first-column {
+    padding-right: 15px
+}
+
+.last-column {
+    padding-left: 80px; 
+    padding-top: 50px;
+}
+.second-column{
+    padding-left: 100px;
+}
+.third-column{
+    padding-left: 105px;
+}
+
+@media (max-width: 740px) {
+
+    .first-column{
+        padding-left: 10px !important;
+    }
+    .second-column{
+        padding-left: 10px !important;
+        margin-top: 0 !important;
+    }
+    .third-column{
+        padding-left: 10px !important;
+        margin-top: -34px !important;
+    }
+    .last-column{
+        padding-left: 10px !important;
+        margin-top: -28px !important;
+    }
+    .background{
+        height: auto;
+    }
+    .amsterdam{
+        padding-top: 50px !important;
+    }
+}
